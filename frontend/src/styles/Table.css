@@ -1,0 +1,44 @@
+.table-container {
+  margin: 0 auto;
+  width: 80%;
+  overflow-x: auto;
+}
+
+.medal-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+.medal-table th,
+.medal-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.medal-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.medal-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.medal-table img {
+  border-radius: 4px;
+}
+
+.medal-table button {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.medal-table button:hover {
+  background-color: #0056b3;
+}

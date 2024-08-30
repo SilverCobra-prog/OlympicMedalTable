@@ -1,0 +1,25 @@
+.notification-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .notification-container h2 {
+    color: #856404;
+    margin-bottom: 10px;
+  }
+  
+  .notification-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notification-container li {
+    padding: 5px 0;
+    color: #856404;
+  }
+  
